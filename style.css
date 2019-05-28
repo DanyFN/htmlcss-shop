@@ -54,7 +54,11 @@
   z-index: 1;
   position: absolute;
   bottom: 0;
-  left: calc(100% / 2);
+  left: calc(( 100% / 2) - 25px);
   display: none;
 
+}
+
+.quadrato:hover .cuore{
+  display: block;
 }
